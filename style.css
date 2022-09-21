@@ -35,7 +35,10 @@
 }
 
 .container-middle-upper {
-    height: 30vh;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .container-img {
@@ -44,12 +47,13 @@
 }
 
 .container-text {
-    height: 100%;
+    font-weight: 600;
+    height: 20%;
     width: 20vw;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: 60%;
     text-align: center;
 }
@@ -84,8 +88,9 @@ footer {
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .li-menu-bottom:hover {
