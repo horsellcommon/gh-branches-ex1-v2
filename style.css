@@ -47,9 +47,9 @@
 }
 
 .container-text {
-    font-weight: 600;
+    text-align: center;
     height: 20%;
-    width: 20vw;
+    width: 25vw;
 }
 
 p {
